@@ -1,0 +1,30 @@
+/* Styles the overall webpage */
+body {
+  font-family: Arial, sans-serif; /* Sets the font style */
+  margin: 30px; /* Adds space around the webpage content */
+}
+
+/* Styles the student table */
+table {
+  border-collapse: collapse; /* Removes spaces between table borders */
+  margin-bottom: 20px; /* Adds space below the table */
+}
+
+/* Styles the table headers and table cells */
+th, td {
+  border: 1px solid #817F7F; /* Adds a gray border */
+  padding: 8px 14px; /* Adds space inside each cell */
+  text-align: center; /* Centers the text */
+}
+
+/* Styles the table header */
+th {
+  background-color: #000000; /* Sets the background to black */
+  color: white; /* Changes the text color to white */
+}
+
+/* Styles the button */
+button {
+  padding: 8px 16px; /* Adds space inside the button */
+  cursor: pointer; /* Changes the cursor when hovering over the button */
+}

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Defines the character encoding -->
+  <meta charset="UTF-8">
+
+  <!-- Sets the title displayed on the browser tab -->
+  <title>Student Grades</title>
+
+  <!-- Connects the external CSS file -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Main heading of the webpage -->
+  <h1>List of Enrolled Students</h1>
+
+  <!-- Table displaying the enrolled students and their grades -->
+  <table>
+    <tr>
+      <th>Student Name</th>
+      <th>Grade</th>
+    </tr>
+    <tr>
+      <td>Anna Reyes</td>
+      <td>92</td>
+    </tr>
+    <tr>
+      <td>Ben Santos</td>
+      <td>85</td>
+    </tr>
+    <tr>
+      <td>Carla Cruz</td>
+      <td>78</td>
+    </tr>
+    <tr>
+      <td>David Lim</td>
+      <td>97</td>
+    </tr>
+    <tr>
+      <td>Ella Ramos</td>
+      <td>74</td>
+    </tr>
+  </table>
+
+  <!-- Button that calls the JavaScript function when clicked -->
+  <button onclick="showGradeEquivalent()">Show Grade Equivalent</button>
+
+  <!-- Displays the grade equivalents and remarks -->
+  <div id="result"></div>
+
+  <!-- Connects the external JavaScript file -->
+  <script src="script.js"></script>
+</body>
+</html>
